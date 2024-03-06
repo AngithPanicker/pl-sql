@@ -1,0 +1,15 @@
+SQL> set serveroutput on
+SQL>  CREATE OR REPLACE PROCEDURE world
+  2    AS
+  3    BEGIN
+  4       dbms_output.put_line('i am angith!');
+  5    END;
+  6    /
+
+Procedure created.
+						output
+SQL> execute world
+i am angith!
+
+PL/SQL procedure successfully completed.
+
